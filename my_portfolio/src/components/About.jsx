@@ -11,7 +11,7 @@ const About = () => {
       />
 
       <div className="md:w-1/2">
-        <p className="text-2xl font-semibold">Hello I am </p>
+        <p className="text-2xl font-semibold">Hello👋   I am </p>
         <span className="text-5xl text-amber-500 font-semibold">Ryunosuke Sakurada</span>
         <p className="mt-5 text-lg leading-relaxed">
             Vancouver-based Front-End Developer driven by continuous self-improvement 
