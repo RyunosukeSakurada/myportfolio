@@ -1,6 +1,6 @@
-import About from "./About"
-import Project from "./Project"
-import Skills from "./Skills"
+import About from "../components/About/About"
+import Skills from "../components/Skills/Skills"
+import Project from "../components/Project/Project"
 
 const Home = () => {
   return (
