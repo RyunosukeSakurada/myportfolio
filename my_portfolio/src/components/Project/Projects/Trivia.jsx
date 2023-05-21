@@ -1,6 +1,6 @@
 import { SiCss3, SiHtml5, SiJavascript } from "react-icons/si"
 import TriviaImg from "../../../assets/trivia.png"
-import {AiOutlineCheckCircle, AiOutlineClose} from "react-icons/ai"
+import {AiFillGithub, AiOutlineCheckCircle, AiOutlineClose} from "react-icons/ai"
 import React, { useState } from "react";
 
 
@@ -73,6 +73,20 @@ const Trivia = () => {
                     </div>
                   </li>
                 </ul>
+
+                {/* Links */}
+                <div className="flex gap-x-8 justify-center">
+                  <a 
+                    href="https://github.com/RyunosukeSakurada/trivia_guru" 
+                    target="blank"
+                    className="border border-black rounded px-4 py-2 hover:bg-amber-500 hover:border-amber-500"
+                  >
+                    <div className="flex gap-x-2 items-center">
+                      <AiFillGithub />
+                      <p>Code</p>
+                    </div>
+                  </a>
+                </div>
           </div>
         </div>
       )}
