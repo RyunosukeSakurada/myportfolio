@@ -4,7 +4,7 @@ import {SiGithub, SiLinkedin} from "react-icons/si"
 
 const Header = () => {
   return (
-    <header className="px-16 py-4 flex items-center justify-between">
+    <header className="px-4 md:px-16 py-4 flex items-center justify-between">
       <h3 className="px-4 py-2 border-2 border-gray-700 rounded-full">R</h3>
       <div className="flex gap-x-4">
         <a href="https://github.com/RyunosukeSakurada" target="blank"><SiGithub size={30} className="hover:bg-amber-500 hover:border hover:rounded-full"/></a>
